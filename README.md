@@ -26,10 +26,10 @@ All cleaning logic lives in SQL (not pandas) — raw data loaded as-is, typed
 and categorized via a `staging_retail` table.
 
 ## Business Questions Answered
-1. **Revenue trends** — monthly trend, Dec 2009–Dec 2011
-2. **Top products & categories** — with and without extreme-bulk-order outliers
-3. **Top countries/regions** by revenue
-4. **Customer behavior** — repeat vs one-time buyer value
+1. **Revenue trends** — monthly trend, Dec 2009–Dec 2011 ![Revenue Trend](screenshots/01_revenue_trend.png)
+2. **Top products & categories** — with and without extreme-bulk-order outliers ![Top Products](screenshots/02_top_products.png)
+3. **Top countries/regions** by revenue ![Top Countries](screenshots/03_top_countries.png)
+4. **Customer behavior** — repeat vs one-time buyer value ![Customer Behavior](screenshots/05_customer_behavior.png)
 5. **Cost of cancellations & write-offs**
 
 ## Key Findings
